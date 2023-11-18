@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="animations/animate.css-main/docs/animate.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="header__menu menu">
+                        <nav class="menu__body">
+                            <ul class="menu__list">
+                                <li><a href="home.html" class="menu__link">HOME</a></li>
+                                <li><a href="shop.html" class="menu__link active">SHOP</a></li>
+                                <li><a href="dottori.html" class="menu__link">DOTTORI</a></li>
+                                <li><a href="chisiamo.html" class="menu__link">CHI SIAMO</a></li>
+                                <li><a href="ingredienti.html" class="menu__link">INGREDIENTI</a></li>
+                                <li><a href="blog.html" class="menu__link">BLOG</a></li>
+                                <li><a href="faqs.html" class="menu__link">FAQS</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__icons">
+                        <img src="img/icons/Italy.png" alt="flag" class="header__flag">
+                        <img src="img/icons/arrow-down.svg" alt="arrow-down" class="header__arrow pointer">
+                        <div class="languages-box">
+                            <a href="#" data-lang="english">English</a>
+                            <a href="#" data-lang="urkainian">Українська</a>
+                            <a href="#" data-lang="italy">Italiano</a>
+                            <a href="#" data-lang="japan">日本語</a>
+                            <a href="#" data-lang="portuguese">Português</a>
+                        </div>
+                        <a href="#" class="header__market">
+                            <img src="img/icons/package.svg" alt="market">
+                        </a>
+                        <div class="header__menu-icon icon-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <main class="shop__page page">
+
+            <section class="bestsellers bestsellers__shop">
+                <div class="container">
+                    <h1 class="bestsellers__title title wow animate__animated animate__lightSpeedInRight"
+                        data-wow-offset="200" data-wow-duration="1.3s">Shop</h1>
+
+                    <div class="bestsellers__filter filter-block">
+                        <div class="filter-block__buttons-box">
+                            <button class="filter-block__button active" data-filter="tutti">Tutti</button>
+                            <button class="filter-block__button" data-filter="nutrizione">Nutrizione</button>
+                            <button class="filter-block__button" data-filter="anti-aging">Anti-Aging</button>
+                            <button class="filter-block__button" data-filter="stress">Gestione dello Stress</button>
+                        </div>
+                        <div class="filter-block__all">
+                            <span>Scegli il beneficio</span>
+                            <img src="img/icons/filter-plus.svg" alt="plus">
+                        </div>
+                    </div>
+
+                    <div class="filter-settings">
+                        <div class="filter-settings__wrapper">
+                            <span class="filter-settings__close"></span>
+                            <h4 class="filter-settings__title">Filtra per beneficio</h4>
+                            <div class="filter-settings__subtitle">Di che cosa hai bisogno nel tuo stile di vita?</div>
+
+                            <div class="filter-settings__items">
+                                <div class="filter-settings__item settings-item" data-filter="nutrizione">
+                                    <img class="settings-item__img" src="img/shop_img/nutrizione.png" alt="nutrizione">
+                                    <div class="settings-item__title">NUTRIZIONE</div>
+                                </div>
+                                <div class="filter-settings__item settings-item" data-filter="esercizio">
+                                    <img class="settings-item__img" src="img/shop_img/esercizio.png" alt="esercizio">
+                                    <div class="settings-item__title">ESERCIZIO</div>
+                                </div>
+                                <div class="filter-settings__item settings-item" data-filter="stress">
+                                    <img class="settings-item__img" src="img/shop_img/stress.png" alt="stress">
+                                    <div class="settings-item__title">GESTIONE DELLO STRESS</div>
+                                </div>
+                                <div class="filter-settings__item settings-item" data-filter="relazioni">
+                                    <img class="settings-item__img" src="img/shop_img/relazioni.png" alt="relazioni">
+                                    <div class="settings-item__title">RELAZIONI</div>
+                                </div>
+                                <div class="filter-settings__item settings-item" data-filter="ambiente">
+                                    <img class="settings-item__img" src="img/shop_img/ambiente.png" alt="ambiente">
+                                    <div class="settings-item__title">AMBIENTE</div>
+                                </div>
+                                <div class="filter-settings__item settings-item" data-filter="anti-aging">
+                                    <img class="settings-item__img" src="img/shop_img/anti-aging.png" alt="anti-aging">
+                                    <div class="settings-item__title">ANTI-AGING</div>
+                                </div>
+                            </div>
+                            <button class="filter-settings__btn">Conferma</button>
+                        </div>
+                    </div>
+
+                    <div class="bestsellers__items">
+                        <div class="bestsellers-item" data-bestseller="stress">
+                            <div class="bestsellers-item__images">
+                                <img class="bestsellers-item__img" src="img/bestsellers/memowit.jpg" alt="memowit">
+                                <img class="bestsellers-item__percent" src="img/icons/percent.png" alt="percent">
+                                <div class="bestsellers-item__img-info img-info">
+                                    <img class="img-info__img" src="img/shop_img/hand.jpg" alt="hand">
+                                    <div class="img-info__content">
+                                        <div class="img-info__title">MEMOWIT</div>
+                                        <span class="img-info__descr">Gestione dello Stress</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <h5 class="bestsellers-item__title">Memowit</h5>
+                            <div class="bestsellers-item__info">
+                                <a href="products_page/memowit.html" class="bestsellers-item__link">
+                                    <img src="img/icons/arrow-right.svg" alt="arrow-right">
+                                    ACQUISTA
+                                </a>
+                                <div class="bestsellers-item__text">
+                                    <span class="bestsellers-item__price-underline">€24.95</span>
+                                    A PARTIRE DA
+                                    <span class="bestsellers-item__price">€21.25</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bestsellers-item" data-bestseller="stress">
+                            <div class="bestsellers-item__images">
+                                <img class="bestsellers-item__img" src="img/bestsellers/ansiwit.jpg" alt="ansiwit">
+                                <img class="bestsellers-item__percent" src="img/icons/percent.png" alt="percent">
+                                <div class="bestsellers-item__img-info img-info">
+                                    <img class="img-info__img" src="img/shop_img/hand.jpg" alt="hand">
+                                    <div class="img-info__content">
+                                        <div class="img-info__title">ANSIWIT</div>
+                                        <span class="img-info__descr">Gestione dello Stress</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="bestsellers-item__title">ANSIWIT</h5>
+                            <div class="bestsellers-item__info">
+                                <a href="products_page/ansiwit.html" class="bestsellers-item__link">
+                                    <img src="img/icons/arrow-right.svg" alt="arrow-right">
+                                    ACQUISTA
+                                </a>
+                                <div class="bestsellers-item__text">
+                                    <span class="bestsellers-item__price-underline">€26.95</span>
+                                    A PARTIRE DA
+                                    <span class="bestsellers-item__price">€21.95</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bestsellers-item" data-bestseller="nutrizione">
+                            <div class="bestsellers-item__images">
+                                <img class="bestsellers-item__img" src="img/bestsellers/carb.jpg" alt="carb">
+                                <img class="bestsellers-item__percent" src="img/icons/percent.png" alt="percent">
+                                <div class="bestsellers-item__img-info img-info">
+                                    <img class="img-info__img" src="img/shop_img/hand.jpg" alt="hand">
+                                    <div class="img-info__content">
+                                        <div class="img-info__title">FERMENT CARB</div>
+                                        <span class="img-info__descr">Nutrizione</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <h5 class="bestsellers-item__title">FERMENT CARB</h5>
+                            <div class="bestsellers-item__info">
+                                <a href="products_page/ferment-carb.html" class="bestsellers-item__link">
+                                    <img src="img/icons/arrow-right.svg" alt="arrow-right">
+                                    ACQUISTA
+                                </a>
+                                <div class="bestsellers-item__text">
+                                    <span class="bestsellers-item__price-underline">€18.95</span>
+                                    A PARTIRE DA
+                                    <span class="bestsellers-item__price">€15.85</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bestsellers-item" data-bestseller="anti-aging">
+                            <div class="bestsellers-item__images">
+                                <img class="bestsellers-item__img" src="img/bestsellers/glutadetox.jpg"
+                                    alt="glutadetox">
+                                <img class="bestsellers-item__percent" src="img/icons/percent.png" alt="percent">
+                                <div class="bestsellers-item__img-info img-info">
+                                    <img class="img-info__img" src="img/shop_img/hand.jpg" alt="hand">
+                                    <div class="img-info__content">
+                                        <div class="img-info__title">GLUTADETOX</div>
+                                        <span class="img-info__descr">Anti-aging</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="bestsellers-item__title">GLUTADETOX</h5>
+                            <div class="bestsellers-item__info">
+                                <a href="products_page/memowit.html" class="bestsellers-item__link">
+                                    <img src="img/icons/arrow-right.svg" alt="arrow-right">
+                                    ACQUISTA
+                                </a>
+                                <div class="bestsellers-item__text">
+                                    <span class="bestsellers-item__price-underline">€33.95</span>
+                                    A PARTIRE DA
+                                    <span class="bestsellers-item__price">€24.85</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="bestsellers__force">TUTTI I PRODOTTI</a>
+                </div>
+            </section>
+
+            <section class="naturali">
+                <h2 class="naturali__title title">Naturali. Affidabili. Svizzeri.</h2>
+                <p class="naturali__text">
+                    Tutti i nostri prodotti sono approvati dal Ministero della Salute e in Svizzera. Intendiamo
+                    rivoluzionare il concetto di salute diventando la società più affidabile del settore.Ti chiedi
+                    quale prodotto faccia al caso tuo?
+                </p>
+                <a href="#" class="naturali__link">CHIEDI AL NUTRIZIONISTA</a>
+            </section>
+
+            <section class="lifestyle">
+                <div class="container">
+                    <div class="lifestyle-top">
+                        <h2 class="lifestyle-top__title title wow animate__animated animate__lightSpeedInLeft"
+                            data-wow-offset="200" data-wow-duration="1.3s">Più di 1000 clienti con una valutazione 5
+                            stelle,
+                            ricorrenti e soddisfatti.</h2>
+                        <div class="lifestyle-top__overflow">
+                            <div class="lifestyle-top__reviews-items reviews-items">
+                                <div class="reviews-items__item">
+                                    <div class="reviews-items__name">Luca Marino</div>
+                                    <div class="reviews-items__stars">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                    </div>
+                                    <p class="reviews-items__text">
+                                        Negli ultimi 3 mesi ho notato un significativo aumento nei miei livelli di
+                                        energia e
+                                        della capacità di concentrazione utilizzando MEMOWIT. Li consiglio a chiunque
+                                        voglia
+                                        migliorare la propria produttività.
+                                    </p>
+                                </div>
+                                <div class="reviews-items__item reviews-toggle">
+                                    <div class="reviews-items__name">Mario Lombardi</div>
+                                    <div class="reviews-items__stars">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                    </div>
+                                    <p class="reviews-items__text">
+                                        "Ho iniziato a prendere GLUTADETOX 6 mesi fa e ho notato un significativo
+                                        miglioramento nei miei livelli di energia e nel mio benessere generale. Li
+                                        consiglio vivamente a chiunque voglia migliorare la propria salute.”
+                                    </p>
+                                </div>
+                                <div class="reviews-items__item reviews-toggle">
+                                    <div class="reviews-items__name">Andrea Ferrari</div>
+                                    <div class="reviews-items__stars">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                    </div>
+                                    <p class="reviews-items__text">
+                                        "Ho conosciuto ORBIS™ quest’anno e sono estremamente soddisfatto dei risultati
+                                        che ho ottenuto. Ho perso peso e mi sento più energico durante tutto il giorno.”
+                                    </p>
+                                </div>
+                                <div class="reviews-items__column">
+                                    <div class="reviews-items__item">
+                                        <div class="reviews-items__name">Mario Lombardi</div>
+                                        <div class="reviews-items__stars">
+                                            <img src="img/icons/star.svg" alt="star">
+                                            <img src="img/icons/star.svg" alt="star">
+                                            <img src="img/icons/star.svg" alt="star">
+                                            <img src="img/icons/star.svg" alt="star">
+                                            <img src="img/icons/star.svg" alt="star">
+                                        </div>
+                                        <p class="reviews-items__text">
+                                            "Ho iniziato a prendere GLUTADETOX 6 mesi fa e ho notato un significativo
+                                            miglioramento nei miei livelli di energia e nel mio benessere generale. Li
+                                            consiglio vivamente a chiunque voglia migliorare la propria salute.”
+                                        </p>
+                                    </div>
+                                    <div class="reviews-items__item">
+                                        <div class="reviews-items__name">Andrea Ferrari</div>
+                                        <div class="reviews-items__stars">
+                                            <img src="img/icons/star.svg" alt="star">
+                                            <img src="img/icons/star.svg" alt="star">
+                                            <img src="img/icons/star.svg" alt="star">
+                                            <img src="img/icons/star.svg" alt="star">
+                                            <img src="img/icons/star.svg" alt="star">
+                                        </div>
+                                        <p class="reviews-items__text">
+                                            "Ho conosciuto ORBIS™ quest’anno e sono estremamente soddisfatto dei
+                                            risultati che ho ottenuto. Ho perso peso e mi sento più energico durante
+                                            tutto il giorno.”
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="reviews-items__item">
+                                    <div class="reviews-items__name">Giulia Giordano</div>
+                                    <div class="reviews-items__stars">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                        <img src="img/icons/star.svg" alt="star">
+                                    </div>
+                                    <p class="reviews-items__text">
+                                        Sono ora 6 mesi che uso FERMENTCARB per aiutare la mia digestione e ho notato un
+                                        risultato positivo sia sulla digestione che sulla mia pelle. Chiunque stia
+                                        cercando una soluzione naturale di alta qualità, ORBIS™ fa di sicuro per te!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__flex">
+                    <div class="footer-contattaci">
+                        <h5 class="footer-contattaci__title">CONTATTACI</h5>
+                        <a href="mailto:info@orbislifestyle.com"
+                            class="footer-contattaci__email">info@orbislifestyle.com</a>
+                        <a href="tel:+410795283397" class="footer-contattaci__tel">+41 (0) 79 528 33 97</a>
+
+                        <a href="#" class="footer-contattaci__btn">whatsapp</a>
+                        <div class="footer-contattaci__social">
+                            <a href="#"><img src="img/social/facebook.svg" alt="facebook"></a>
+                            <a href="#"><img src="img/social/linkedin.svg" alt="linkedin"></a>
+                            <a href="#"><img src="img/social/instagram.svg" alt="instagram"></a>
+                            <a href="#"><img src="img/social/p.svg" alt="p"></a>
+                            <a href="#"><img src="img/social/twitter.svg" alt="twitter"></a>
+                            <a href="#"><img src="img/social/youtube.svg" alt="youtube"></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-logo">
+                        <img src="img/footer-logo.png" alt="footer-logo">
+                    </div>
+
+                    <div class="footer-form">
+                        <h5 class="footer-form__title">ISCRIVITI ALLA NOSTRA NEWSLETTER</h5>
+                        <form action="#" class="footer-form__form">
+                            <label class="footer-form__label pointer">
+                                <input type="checkbox" id="footer-form__checkbox">
+                                <span> Accontento al trattamento dei dati personali come indicato nella privacy
+                                    policy</span>
+                            </label>
+                            <div class="footer-form__inputs">
+                                <span class="footer-form__span"><span tabindex="3"><input type="email"
+                                            class="footer-form__email" id="footer-form__email"
+                                            placeholder="E-mail"></span></span>
+                                <button class="footer-form__btn">iscriviti</button>
+                            </div>
+
+                        </form>
+                        <span class="footer-form__privacy">Privacy, Terms & Conditions, <br> Refunds, Impressum</span>
+                    </div>
+                </div>
+
+                <div class="footer__text">
+                    <p>
+                        I prodotti di www.orbislifestyle.com favoriscono la condizione di benessere, coadiuvando le
+                        funzioni fisiologiche dell’organismo: si tratta di prodotti alimentari destinati ad integrare la
+                        comune dieta e che costituiscono una fonte concentrata di sostanze nutritive. Nessun prodotto ha
+                        come scopo la diagnosi, il trattamento, la cura o la prevenzione di alcuna malattia. Si
+                        raccomanda di seguire le avvertenze riportate in etichetta e si consiglia la supervisione medica
+                        nei soggetti in età pediatrica, sopra i 65 anni e con qualsiasi condizione patologica. In
+                        generale, le donne in gravidanza e durante l’allattamento non devono assumere integratori
+                        alimentari se non in caso di effettiva necessità. L’uso tradizionale o l’impiego clinico delle
+                        sostanze riportate in questo sito non va inteso come prescrizione medica. Non assumere in caso
+                        di ipersensibilità ad uno qualsiasi degli ingredienti presenti nelle formulazioni. Eventuali
+                        variazioni di colore, sapore e/o odore, in alcuni prodotti, sono dovute alla presenza di
+                        ingredienti naturali.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="animations/WOW-master/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/filter.js"></script>
+
+</body>
+
+</html>
